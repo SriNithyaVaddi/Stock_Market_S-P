@@ -7,7 +7,7 @@ yf.pdr_override()
 from datetime import datetime
 import plotly.express as px
 from scipy import stats
-import matplotlib.pyplot as plt
+
 import numpy as np
 import plotly.figure_factory as ff
 import plotly.graph_objects as go
