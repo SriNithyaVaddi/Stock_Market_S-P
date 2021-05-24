@@ -9,3 +9,4 @@ cufflinks==0.17.3
 keras == 2.3.1
 tensorflow == 2.5.0
 Cython == 0.29.23
+fbprophet == 0.7.1
