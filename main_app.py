@@ -1,5 +1,6 @@
 import streamlit as st
 # pip install streamlit fbprophet yfinance plotly
+from Cython.Build import cythonize
 import streamlit as st
 import pandas as pd
 import pandas_datareader as pdr
