@@ -5,7 +5,7 @@ import pandas as pd
 import yfinance as yf
 yf.pdr_override()
 from datetime import datetime
-import plotly.express as px
+
 from scipy import stats
 
 import numpy as np
