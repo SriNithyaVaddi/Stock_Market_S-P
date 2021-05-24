@@ -12,7 +12,6 @@ import numpy as np
 
 pd.pandas.set_option('display.max_columns',None)
 
-from pandas_datareader.data import DataReader
 
 st.title('Stock Forecast of S&P 500')
 
