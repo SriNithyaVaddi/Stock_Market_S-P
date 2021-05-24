@@ -2,7 +2,6 @@ import streamlit as st
 # pip install streamlit fbprophet yfinance plotly
 import streamlit as st
 import pandas as pd
-import pandas_datareader as pdr
 import yfinance as yf
 yf.pdr_override()
 from datetime import datetime
