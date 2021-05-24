@@ -56,7 +56,7 @@ if choice == "Moving_average":
     moving_average_df = df.copy()
     for i in df.columns[1:]:
         moving_average_df[i] = df[i].rolling(21).mean()
-    print('moving_average_df.head(22)')
+
     st.write(moving_average_df)
     def ma(df):
         for i in df.columns[2:]:
