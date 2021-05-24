@@ -9,12 +9,11 @@ from datetime import datetime
 from scipy import stats
 
 import numpy as np
-import plotly.figure_factory as ff
-import plotly.graph_objects as go
+
 pd.pandas.set_option('display.max_columns',None)
-import seaborn as sns
+
 from pandas_datareader.data import DataReader
-import seaborn as sns
+
 st.title('Stock Forecast of S&P 500')
 
 stock = '^GSPC'
